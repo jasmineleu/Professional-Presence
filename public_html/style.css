@@ -1,0 +1,73 @@
+body
+{
+  font-family: "optima", optima;
+  background-color: powderblue;
+}
+
+.row
+{
+  max-width: 1200 px;
+  margin: auto;
+
+}
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 200px;
+
+}
+
+.main-nav li
+{
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.main-nav li a
+{
+  color: grey;
+  text-decoration: none;
+  padding: 5px 10px;
+  /* font-family: "optima", optima; */
+  font-size: 17px;
+}
+
+.main-nav li.active a
+{
+  font-weight: bold;
+  border: 1px solid white;
+  color: cadetblue
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.title
+{
+  float: left;
+  font-size: 20px;
+  margin-left: 200px;
+  /* font-family: "optima", optima; */
+}
+
+.About-Me
+{
+  position: absolute;
+  width: 1200px;
+  height: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+h2
+{
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 150;
+}
+
