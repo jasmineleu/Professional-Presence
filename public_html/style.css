@@ -11,25 +11,45 @@ header
 }
 
 .navbar { /* entire bar */
-  font-family: "optima", optima;
-  min-width: 600;
-  background-color: #E98074!important;
-}
-
-.navbar-toggler { /* button */
-  float: right;
-}
-
-.navbar-nav { /* selected menu */
   position: absolute;
-  right: 200px;
-  max-width: 500px;
-  margin-left: 300;
-  /* overflow: auto; */
+  font-family: "optima", optima;
+  min-width: 900;
+  background-color: #E98074 !important;
+}
+
+.navbar-toggler-icon { /* button */
+  position: inline !important;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* max-width: 50%; */
+  min-width: 25px;
+}
+
+.navbar-collapse {
+  margin-right: 10px;
+  text-align: right;
+}
+
+.navbarText {
+  color: #EAE7DC !important;
+}
+.navbar-nav { /* selected menu */
+  float: right;
+  padding-left: 180px !important;
+  position: inline;
+  /* max-width: 100%; */
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-link {
   color: #EAE7DC !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
 }
 
 .active {
@@ -37,14 +57,21 @@ header
   text-decoration: underline;
 }
 
-
-.title {
+.title a {
+  /* float: left; */
   color: #EAE7DC;
-  float: left;
-  margin-left: 190;
-  margin-right: 100px;
-  overflow: hidden;
-  white-space: nowrap;
+  position: inline !important;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* max-width: 50%; */
+  min-width: 500px;
+}
+
+.title a:hover {
+  text-decoration: none; 
+  color: #EAE7DC;
+
 }
 
 .welcome
@@ -57,21 +84,22 @@ header
 
 .section {
   color: #E85A4F;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
-  /* font-size: 50px !important; */
-  font-weight: 500;
-  max-width: 40%;
+
+  max-width: 30%;
   min-width: 900px;
 }
 
+.flower {
+  min-width: 300px;
+  max-width: 300px;
+}
 
 .grand-canyon {
   min-width: 300px;
   max-width: 40%;
-  /* min-width: 300px;
-  max-height: 40%; */
   padding-right: 10px;
 }
 
@@ -80,8 +108,8 @@ header
   max-width: 30%;
   padding-left: 10px;
   padding-bottom: 50px;
-
 }
+
 p {
   line-height: 35px;
   word-spacing: 3px;
@@ -95,9 +123,10 @@ p {
 .section-title {
   display: inline;
   font-weight: 600;
-  /* word-spacing: 1px; */
   letter-spacing: 1px;
   line-height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .section-subtitle {
@@ -107,8 +136,8 @@ p {
 
 h3 {
   padding-top: 10px;
-  float: right;
-  display: inline;
+  padding-left: 400px;
+  display: inline-block;
 }
 
 
