@@ -1,56 +1,132 @@
 body
 {
   background-color: #EAE7DC !important;
-  color: white;
+  padding-bottom: 50px !important;
+  overflow-y: scroll;
 }
+
 header 
 {
   font-family: "optima", optima;
 }
 
-.navbar {
+.navbar { /* entire bar */
   font-family: "optima", optima;
-  min-width: px;
+  min-width: 600;
   background-color: #E98074!important;
 }
 
-
-.navbar-toggler {
+.navbar-toggler { /* button */
   float: right;
 }
 
-.navbar-nav {
+.navbar-nav { /* selected menu */
   position: absolute;
   right: 200px;
   max-width: 500px;
-  overflow: hidden;
-  white-space: nowrap;
+  margin-left: 300;
+  /* overflow: auto; */
+}
+
+.nav-link {
+  color: #EAE7DC !important;
 }
 
 .active {
-  font-weight: 550;
+  font-weight: 600;
+  text-decoration: underline;
 }
+
 
 .title {
   color: #EAE7DC;
   float: left;
   margin-left: 190;
+  margin-right: 100px;
   overflow: hidden;
   white-space: nowrap;
 }
 
-.About-Me
+.welcome
 {
-  color: #E98074;
+  color: #E85A4F;
   text-align: center;
-  height: px;
   margin-top: 200px;
-  font-size: 100px;
+  font-size: 40px;
 } 
 
-h2 {
-  color: #E98074;
-  font-weight: bold;
+.section {
+  color: #E85A4F;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  /* font-size: 50px !important; */
+  font-weight: 500;
+  max-width: 40%;
+  min-width: 900px;
 }
+
+
+.grand-canyon {
+  min-width: 300px;
+  max-width: 40%;
+  /* min-width: 300px;
+  max-height: 40%; */
+  padding-right: 10px;
+}
+
+.rosie {
+  min-width: 300px;
+  max-width: 30%;
+  padding-left: 10px;
+  padding-bottom: 50px;
+
+}
+p {
+  line-height: 35px;
+  word-spacing: 3px;
+  font-size: 20px;
+}
+
+.link {
+  color: #916dd5;
+}
+
+.section-title {
+  display: inline;
+  font-weight: 600;
+  /* word-spacing: 1px; */
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+
+.section-subtitle {
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+h3 {
+  padding-top: 10px;
+  float: right;
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
