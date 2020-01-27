@@ -107,7 +107,7 @@ header
   min-width: 300px;
   max-width: 30%;
   padding-left: 10px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 
 p {
