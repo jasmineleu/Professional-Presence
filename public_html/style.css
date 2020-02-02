@@ -21,8 +21,6 @@ header
   position: inline !important;
   margin-left: auto;
   margin-right: auto;
-  
-  /* max-width: 50%; */
   min-width: 25px;
 }
 
@@ -38,7 +36,6 @@ header
   float: right;
   padding-left: 180px !important;
   position: inline;
-  /* max-width: 100%; */
   min-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -58,20 +55,16 @@ header
 }
 
 .title a {
-  /* float: left; */
   color: #EAE7DC;
   position: inline !important;
   margin-left: auto;
   margin-right: auto;
-  
-  /* max-width: 50%; */
   min-width: 500px;
 }
 
 .title a:hover {
   text-decoration: none; 
   color: #EAE7DC;
-
 }
 
 .welcome
@@ -92,6 +85,7 @@ header
   min-width: 900px;
 }
 
+/* Pictures */
 .flower {
   min-width: 300px;
   max-width: 300px;
@@ -107,8 +101,14 @@ header
   min-width: 300px;
   max-width: 30%;
   padding-left: 10px;
-  /* padding-bottom: 50px; */
 }
+
+.penguin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* /////// */
 
 p {
   line-height: 35px;
@@ -131,7 +131,8 @@ p {
 
 .section-subtitle {
   letter-spacing: 1px;
-  text-decoration: underline;
+  font-weight: 600;
+  /* text-decoration: underline; */
 }
 
 h3 {
